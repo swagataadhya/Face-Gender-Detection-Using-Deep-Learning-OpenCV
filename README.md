@@ -6,16 +6,21 @@ This project demonstrates how to build a real-time face detection and gender cla
 
 🔍 Key Features:
 ✅ Face Detection using cvlib
+
 ✅ Gender Classification using a Caffe-based Deep Neural Network
+
 📏 Automatic image resizing for optimal performance
+
 🎯 Annotated output with bounding boxes and confidence scores
+
 🖥 Real-time visualization using OpenCV
 
+
 🛠 Tech Stack:
-Python
-OpenCV
-cvlib
-Pre-trained GenderNet model (gender_net.caffemodel)
+- Python
+- OpenCV
+- cvlib
+- Pre-trained GenderNet model (gender_net.caffemodel)
 
 📸 Sample Output
 ![Capture1](https://github.com/user-attachments/assets/4b9be73f-8757-4d93-9be4-3e004e3f495d)
@@ -23,11 +28,11 @@ Pre-trained GenderNet model (gender_net.caffemodel)
 
 
 🧠 How It Works
-An input image (or real-time webcam feed) is passed to the system.
-Faces are detected using cvlib.detect_face().
-Each detected face is cropped and passed through the GenderNet model.
-The model returns a gender prediction and confidence score.
-Results are displayed with OpenCV, showing labels and boxes around each face.
+- An input image (or real-time webcam feed) is passed to the system.
+- Faces are detected using cvlib.detect_face().
+- Each detected face is cropped and passed through the GenderNet model.
+- The model returns a gender prediction and confidence score.
+- Results are displayed with OpenCV, showing labels and boxes around each face.
 
 
 

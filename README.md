@@ -18,7 +18,8 @@ cvlib
 Pre-trained GenderNet model (gender_net.caffemodel)
 
 📸 Sample Output
-(Attach an image or GIF of the project in action)
+![Capture1](https://github.com/user-attachments/assets/4b9be73f-8757-4d93-9be4-3e004e3f495d)
+![Capture2](https://github.com/user-attachments/assets/bb3edbd4-722c-45f3-a144-0792f060d325)
 
 
 🧠 How It Works
@@ -27,6 +28,7 @@ Faces are detected using cvlib.detect_face().
 Each detected face is cropped and passed through the GenderNet model.
 The model returns a gender prediction and confidence score.
 Results are displayed with OpenCV, showing labels and boxes around each face.
+
 
 
 This project was a hands-on exercise in combining computer vision and deep learning for real-world applications. It showcases the power of pre-trained networks and simple OpenCV pipelines to build smart systems efficiently. I'm always open to feedback and collaboration. Feel free to fork, star ⭐, or raise issues!
